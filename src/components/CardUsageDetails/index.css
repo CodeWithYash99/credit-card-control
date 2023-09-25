@@ -1,0 +1,77 @@
+.card-usage-details-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.form-card-usage-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.label-name {
+    color: #70e1f5;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.usage-details-add-btn {
+    background-color: #11ffbd;
+    align-self: flex-end;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 600;
+    width: 80px;
+    height: 32px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.card-usage-table-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.card-usage-table {
+    background-color: #606c88;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40px;
+    border-radius: 8px 8px 0 0;
+}
+
+.table-heading {
+    text-align: left;
+    width: 360px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+}
+
+.empty-list-text {
+    color: #5fdcf0;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 50%;
+}
