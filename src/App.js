@@ -24,9 +24,9 @@ const App = () => {
   return (
     <div className='app-container'>
       <Routes>
-        <Route exact path='/credit-card-control' element={<Login setToken={setToken} />}  />
+        <Route exact path='/credit-card-control' element={<Login setToken={setToken} />} />
         <Route exact path='/register' element={<Register />} />
-        {token ? <Route exact path='/' element={<Home token={token} />} /> : <Route exact path='/' element={<Login />}  />}
+        {token ? <Route exact path='/' element={<Home token={token} />} /> : <Route exact path='/credit-card-control' element={<Login />} />}
         <Route path='*' element={<NotFound />} />
       </Routes>
     </div>
