@@ -126,7 +126,7 @@ const Register = () => {
           />
         </div>
         <button className='register-button' type='submit'>Register</button>
-        <p className='login-text'>Already have an account? <Link to='/' className='login-link'>Login here</Link></p>
+        <p className='login-text'>Already have an account? <Link to='/credit-card-control' className='login-link'>Login here</Link></p>
       </form>
     </div>
   )       
