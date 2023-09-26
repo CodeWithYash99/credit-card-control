@@ -56,10 +56,10 @@ const Login = (props) => {
     <div className='login-container'>
       <h1 className='login-heading'>Login</h1>
       <form className='login-form-container' onSubmit={onSubmitLogin}>
-        <div className='input-container'>
-          <label htmlFor='email' className='label'>Email</label>
+        <div className='login-input-container'>
+          <label htmlFor='email' className='login-label'>Email</label>
           <input 
-            className='user-input'
+            className='login-user-input'
             id='email'
             type='email'
             name='email'   
@@ -68,10 +68,10 @@ const Login = (props) => {
             onChange={onChangeEmail}
           />          
         </div>
-        <div className='input-container'>
-          <label htmlFor='password' className='label'>Password</label>
+        <div className='login-input-container'>
+          <label htmlFor='password' className='login-label'>Password</label>
           <input 
-            className='user-input' 
+            className='login-user-input' 
             id='password'
             type='password'
             name='password' 
