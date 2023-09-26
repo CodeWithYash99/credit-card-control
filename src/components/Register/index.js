@@ -77,22 +77,22 @@ const Register = () => {
     <div className='register-container'>
       <h1 className='register-heading'>Register</h1>
       <form className='register-form-container' onSubmit={onSubmitRegister}>
-        <div className='input-container'>
-          <label className='label' htmlFor='fullName'>FullName</label>
+        <div className='register-input-container'>
+          <label className='register-label' htmlFor='fullName'>FullName</label>
           <input 
-            className='user-input' 
+            className='register-user-input' 
             id='fullName' 
             name='fullName' 
             type='text' 
-            placeholder='FullName'
+            placeholder='Enter FullName'
             value={fullName}
             onChange={onChangeFullName}
           />
         </div>
-        <div className='input-container'>
-          <label className='label' htmlFor='email'>Email</label>
+        <div className='register-input-container'>
+          <label className='register-label' htmlFor='email'>Email</label>
           <input 
-            className='user-input' 
+            className='register-user-input' 
             id='email' 
             name='email' 
             type='email' 
@@ -101,10 +101,10 @@ const Register = () => {
             onChange={onChangeEmail}
           />
         </div>
-        <div className='input-container'>
-          <label className='label' htmlFor='password'>Password</label>
+        <div className='register-input-container'>
+          <label className='register-label' htmlFor='password'>Password</label>
           <input 
-            className='user-input' 
+            className='register-user-input' 
             id='password' 
             name='password' 
             type='password' 
@@ -113,10 +113,10 @@ const Register = () => {
             onChange={onChangePassword}
           />
         </div>
-        <div className='input-container'>
-          <label className='label' htmlFor=''>Re-Enter Password</label>
+        <div className='register-input-container'>
+          <label className='register-label' htmlFor=''>Re-Enter Password</label>
           <input 
-            className='user-input' 
+            className='register-user-input' 
             id='reEnterPassword' 
             name='reEnterPassword' 
             type='password' 
