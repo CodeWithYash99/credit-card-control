@@ -1,5 +1,5 @@
 .register-container {
-    background-image: linear-gradient(to right, #596164, #537895, #868F96, #596164);
+    background-image: radial-gradient(#D8B5FF, #596164);
     display: flex;
     flex-direction: column;
     align-items: center;
