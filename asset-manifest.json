@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/credit-card-control/static/css/main.cfaa810c.css",
-    "main.js": "/credit-card-control/static/js/main.7c47cbf7.js",
+    "main.css": "/credit-card-control/static/css/main.e3a3088e.css",
+    "main.js": "/credit-card-control/static/js/main.fe6433ae.js",
     "index.html": "/credit-card-control/index.html",
-    "main.cfaa810c.css.map": "/credit-card-control/static/css/main.cfaa810c.css.map",
-    "main.7c47cbf7.js.map": "/credit-card-control/static/js/main.7c47cbf7.js.map"
+    "main.e3a3088e.css.map": "/credit-card-control/static/css/main.e3a3088e.css.map",
+    "main.fe6433ae.js.map": "/credit-card-control/static/js/main.fe6433ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfaa810c.css",
-    "static/js/main.7c47cbf7.js"
+    "static/css/main.e3a3088e.css",
+    "static/js/main.fe6433ae.js"
   ]
 }
