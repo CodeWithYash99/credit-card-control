@@ -8,7 +8,7 @@ const Logout = () => {
 
   const onClickLogout = () => {
     sessionStorage.removeItem('token')
-    navigate('/login')
+    navigate('/credit-card-control')
   }
 
   return (
