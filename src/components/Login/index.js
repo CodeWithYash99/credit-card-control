@@ -21,7 +21,7 @@ const Login = (props) => {
 
       if (error) throw error
       setToken(data)
-      navigate('/')
+      navigate('/home')
 
       if (email !== '' && password !== '') {
         setEmail('')
