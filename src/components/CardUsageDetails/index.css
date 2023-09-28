@@ -75,10 +75,11 @@
 }
 
 .empty-list-text {
+    text-align: center;
     color: #5fdcf0;
     font-family: 'Roboto';
     font-weight: 600;
-    margin-top: 50%;
+    margin-top: 70px;
 }
 
 @media screen and (max-width: 576px) {

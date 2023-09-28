@@ -173,12 +173,11 @@ const CardUsageDetails = () => {
           </thead>
 
           <tbody>
-            {formCardData.length > 0 ? 
-              <>{formCardData.map(each => (<CardUsageDetailsItem key={each.id} cardDetails={each} getClickedId={getClickedId} />))} </>
-              :
-              <p className='empty-list-text'>No details are added yet!!!</p> }
+            {formCardData.map(each => (<CardUsageDetailsItem key={each.id} cardDetails={each} getClickedId={getClickedId} />))} 
           </tbody>
         </table>
+        
+        {formCardData.length > 0 ? "" : <><p className='empty-list-text'>No details are added yet!!!</p></> }
       </div>
     </div>
   )
