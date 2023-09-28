@@ -11,12 +11,14 @@ const Home = (props) => {
     <div className='home-container'>
       <div className='home-heading-container'>
         <h1 className='home-heading'>Credit Card Control</h1>
-        <div className='logout-container'>
-          <div className='user-profile-container'>
+        <div className='logout-profile-container'>
+          <div className='logout-profile-block'>
             <FaUserCircle className='user-profile-icon' />
             <h1 className='user-name'>{token.user.user_metadata.full_name}</h1>
           </div>
-          <Logout />
+          <div className='logout-profile-block'>
+            <Logout />
+          </div>
         </div>
       </div>
       <CardUsageDetails />

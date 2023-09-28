@@ -1,26 +1,57 @@
-.logout-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100px;
-    height: 40px;
+@media screen and (max-width: 576px) {
+    .logout-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+    }
+    
+    .logout-button {
+        background-color: inherit;
+        color: #fff;
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 600;
+        width: 80px;
+        height: 24px;
+        border-radius: 10px;
+        border-style: none;
+        cursor: pointer;
+    }
+    
+    .logout-icon {
+        color: #ffffff;
+        width: 24px;
+        height: 24px;
+    }
 }
 
-.logout-button {
-    background-color: inherit;
-    color: #fff;
-    font-family: 'Roboto';
-    font-size: 18px;
-    font-weight: 600;
-    width: 80px;
-    height: 24px;
-    border-radius: 10px;
-    border-style: none;
-    cursor: pointer;
-}
-
-.logout-icon {
-    color: #ffffff;
-    width: 24px;
-    height: 24px;
+@media screen and (min-width: 577px) {
+    .logout-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        cursor: pointer;
+    }
+    
+    .logout-button {
+        background-color: inherit;
+        color: #fff;
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 600;
+        width: 80px;
+        height: 24px;
+        border-radius: 10px;
+        border-style: none;
+    }
+    
+    .logout-icon {
+        color: #ffffff;
+        width: 24px;
+        height: 24px;
+    }
 }
