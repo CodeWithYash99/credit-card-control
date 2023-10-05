@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 100vh;
 }
 
 .input-container {
@@ -43,7 +42,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 100vh;
     margin-top: 10px;
 }
 
@@ -78,10 +76,6 @@
     .usage-details-add-btn {
         font-size: 16px;
         margin-top: 16px;
-    }
-
-    .card-usage-table-container {
-        margin-top: 10px;
     }
 
     .card-usage-table {
@@ -138,10 +132,6 @@
     .usage-details-add-btn {
         align-self: flex-end;
         font-size: 18px;
-    }
-    
-    .card-usage-table-container {
-        margin-top: 20px;
     }
 
     .card-usage-table {

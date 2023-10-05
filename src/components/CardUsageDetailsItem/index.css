@@ -19,7 +19,7 @@
     
     .table-data {
         font-size: 10px;
-        width: 100px;
+        max-width: 100px;
         padding-left: 12px;
     }
     
