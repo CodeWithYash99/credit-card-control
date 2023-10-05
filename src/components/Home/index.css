@@ -2,26 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.home-container {
-    background-image: linear-gradient(to right, #1e130c, #9a8478);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 30px;
 } 
 
 @media screen and (max-width: 576px) {
+    .home-container {
+        background-image: linear-gradient(to right, #1e130c, #9a8478);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        
+    }
+
     .home-heading-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        max-width: 576px;
         min-height: 60px;
-        padding: 20px;
+        padding: 12px 34px;
         border-radius: 12px;
         box-shadow: 5px 5px 50px 5px #ffffff90;
     }   
@@ -30,7 +31,7 @@
         text-align: center;
         color: #fff;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-        font-size: 26px;
+        font-size: 20px;
     }
 
     .logout-profile-container {
@@ -53,21 +54,30 @@
     
     .user-profile-icon {
         color: #73C8A9;
-        width: 30px;
-        height: 30px;
+        width: 18px;
+        height: 18px;
     }
     
     .user-name {
         color: #73C8A9;
         font-family: 'Franklin Gothic Medium';
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 600;
         margin: 0;
-        margin-left: 14px;
+        margin-left: 10px;
     }
 }
 
 @media screen and (min-width: 577px) {
+    .home-container {
+        background-image: linear-gradient(to right, #1e130c, #9a8478);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 30px;
+    }
+    
     .home-heading-container {
         display: flex;
         flex-direction: row;

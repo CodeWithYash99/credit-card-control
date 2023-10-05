@@ -5,13 +5,6 @@
     min-height: 100vh;
 }
 
-.form-card-usage-details-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
 .input-container {
     display: flex;
     flex-direction: column;
@@ -22,14 +15,12 @@
 .label-name {
     color: #70e1f5;
     font-family: 'Roboto';
-    font-size: 16px;
     font-weight: 600;
 }
 
 .user-input {
     width: 300px;
-    height: 30px;
-    padding: 0 6px;
+    padding: 0 8px;
     border-radius: 4px;
     border-style: none;
     outline: none;
@@ -56,24 +47,6 @@
     margin-top: 10px;
 }
 
-.card-usage-table {
-    background-color: #606c88;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 40px;
-    border-radius: 8px 8px 0 0;
-}
-
-.table-heading {
-    text-align: left;
-    font-family: 'Roboto';
-    width: 360px;
-    height: 40px;
-    line-height: 40px;
-    padding-left: 20px;
-}
-
 .empty-list-text {
     text-align: center;
     color: #5fdcf0;
@@ -84,39 +57,68 @@
 
 @media screen and (max-width: 576px) {
     .form-card-usage-details-container {
+        display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-
-    .input-container {
-        margin-bottom: 8px;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
     }
 
     .label-name {
+        font-size: 14px;
         margin-bottom: 4px;
+    }
+
+    .user-input {
+        font-size: 14px;
+        height: 24px;
     }
 
     .usage-details-add-btn {
         font-size: 16px;
+        margin-top: 16px;
     }
 
     .card-usage-table-container {
         margin-top: 10px;
     }
+
+    .card-usage-table {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .table-row-heading {
+        background-color: #606c88;
+        border-radius: 8px 8px 0 0;
+    } 
  
     .table-heading {
-        font-size: 14px;
+        text-align: left;
+        font-family: 'Roboto';
+        font-size: 12px;
+        width: 100px;
+        height: 40px;
+        line-height: 40px;
+        padding-left: 12px;
     }
     
     .empty-list-text {
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 
 @media screen and (min-width: 577px) {    
     .form-card-usage-details-container {
+        display: flex;
         flex-direction: row;
         justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
     }
 
     .input-container {
@@ -124,7 +126,13 @@
     }
 
     .label-name {
+        font-size: 16px;
         margin-bottom: 8px;
+    }
+
+    .user-input {
+        font-size: 16px;
+        height: 30px;
     }
 
     .usage-details-add-btn {
@@ -135,9 +143,27 @@
     .card-usage-table-container {
         margin-top: 20px;
     }
+
+    .card-usage-table {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }  
     
+    .table-row-heading {
+        background-color: #606c88;
+        border-radius: 8px 8px 0 0;
+    } 
+
     .table-heading {
+        text-align: left;
+        font-family: 'Roboto';
         font-size: 16px;
+        width: 300px;
+        height: 40px;
+        line-height: 40px;
+        padding-left: 14px;
     }
     
     .empty-list-text {

@@ -1,39 +1,46 @@
-.table-row {
-    padding: 4px;
-    border: 1px solid #606c88;
-}
-
 .table-data {
     color: #fff;
     font-family: 'Roboto';
     width: 360px;
     height: 40px;
-    padding-left: 20px;
     line-height: 40px;
 }
 
 .delete-icon {
     color: #870000;
-    margin-top: 6px;
     cursor: pointer;
 }
 
-@media screen and (max-width: 576px) {   
+@media screen and (max-width: 576px) {  
+    .table-row  {
+        min-height: 40px;
+        border: 1px solid #606c88;
+    }    
+    
     .table-data {
-        font-size: 12px;
+        font-size: 10px;
+        width: 100px;
+        padding-left: 12px;
+    }
+    
+    .delete-icon {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 577px) { 
+    .table-row  {
+        min-height: 40px;
+        border: 1px solid #606c88;
+    }  
+
+    .table-data {
+        font-size: 16px;
+        width: 300px;
+        padding-left: 14px;
     }
     
     .delete-icon {
         font-size: 20px;
-    }
-}
-
-@media screen and (min-width: 577px) {    
-    .table-data {
-        font-size: 16px;
-    }
-    
-    .delete-icon {
-        font-size: 24px;
     }
 }

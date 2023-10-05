@@ -162,7 +162,7 @@ const CardUsageDetails = () => {
 
       <div className='card-usage-table-container'>
         <table className='card-usage-table'>
-          <thead >
+          <thead className='table-row-heading'>
             <tr>
               <th className='table-heading'>Bank Name</th>
               <th className='table-heading'>Amount</th>

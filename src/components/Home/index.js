@@ -16,9 +16,7 @@ const Home = (props) => {
             <FaUserCircle className='user-profile-icon' />
             <h1 className='user-name'>{token.user.user_metadata.full_name}</h1>
           </div>
-          <div className='logout-profile-block'>
-            <Logout />
-          </div>
+          <Logout />
         </div>
       </div>
       <CardUsageDetails />
