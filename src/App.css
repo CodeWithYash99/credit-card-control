@@ -8,6 +8,7 @@
   background-image: radial-gradient(#FF5F6D, #FFC371);
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 100%;
   min-height: 100vh;
